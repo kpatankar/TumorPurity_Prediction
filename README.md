@@ -22,8 +22,9 @@ install.packages("R.utils")
 install.packages("estimate", repos="http://R-Forge.R-project.org")
 
 ### Usage
-
-
+```{sh}
+Rscript tumor_purity.R [GSE_Data_Set_Number]  [probeid_to_genesymbol.txt] [date_to_genesymbol.txt]
+```
 
 ### Reference
 1. Yoshihara K, Shahmoradgoli M, Martínez E, Vegesna R, Kim H, Torres-Garcia W, Treviño V, Shen H, Laird PW, Levine DA, Carter SL, Getz G, Stemke-Hale K, Mills GB, Verhaak R. (2013)."Inferring tumour purity and stromal and immune cell admixture from expression data."
